@@ -102,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				E72FD75C2466E3EB00A4738F /* HabitModel.swift */,
-				E7328D89246896C800FE8A19 /* HabitCell.swift */,
-				E7328D8A246896C800FE8A19 /* HabitCell.xib */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +109,7 @@
 		E72FD75F2466E41600A4738F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7328D8A246896C800FE8A19 /* HabitCell.xib */,
 				E724253E246357A80010F639 /* Main.storyboard */,
 			);
 			path = View;
@@ -119,6 +118,7 @@
 		E72FD7602466E41D00A4738F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E7328D89246896C800FE8A19 /* HabitCell.swift */,
 				E724253C246357A80010F639 /* ViewController.swift */,
 			);
 			path = Controller;

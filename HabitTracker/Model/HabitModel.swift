@@ -7,10 +7,18 @@
 //
 
 import Foundation
+import RealmSwift
 
 struct HabitModel {
     
-    var name : String = ""
-    var done : [Bool] = [false]
+    var name = ""
+    var done : [Bool] = []
     
 }
+
+//class HabitModel: Object {
+//
+//    @objc dynamic var name : String = ""
+//   var done = List<Bool>()
+//
+//}
